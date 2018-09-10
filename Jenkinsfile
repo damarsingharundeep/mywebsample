@@ -1,7 +1,7 @@
 
 pipeline{//Agent or executor available
 agent {
-	label 'Linux'
+	label 'Linux Node'
 
 	}
 	} 
