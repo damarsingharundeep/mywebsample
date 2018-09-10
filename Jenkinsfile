@@ -4,7 +4,7 @@ agent {
 	label 'Linux Node'
 
 	}
-	} 
+	
 
 node{
     stage('Git Checkout'){
@@ -28,4 +28,4 @@ node{
 	}
 
 }
-
+}
