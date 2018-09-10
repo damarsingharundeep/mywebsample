@@ -1,9 +1,9 @@
 
-pipeline{//Agent or executor available
-agent {
-	label 'Linux Node'
+//pipeline{//Agent or executor available
+//agent {
+//	label 'Linux Node'
 
-	}
+//	}
 	
 
 node {
@@ -28,4 +28,4 @@ node {
 	//}
 
 }
-}
+//}
