@@ -1,3 +1,11 @@
+
+pipeline{//Agent or executor available
+agent {
+	label 'Linux'
+
+	}
+	} 
+
 node{
     stage('Git Checkout'){
       git credentialsId: 'git-javahometech',
