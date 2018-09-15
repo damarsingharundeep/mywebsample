@@ -76,7 +76,7 @@
                 <source>1.7</source>
                 <target>1.7</target>
 		 <fork>true</fork>
-			<executable>/opt/jdk-10.0.2/bin/java</executable>
+			<executable>/opt/jdk-10.0.2/bin/javac</executable>
             </configuration>
         </plugin>
 	<plugin>
