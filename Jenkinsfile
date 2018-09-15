@@ -6,7 +6,7 @@
 //	}
 	
 
-node {
+node('Linux') {
     stage('Git Checkout'){
       git credentialsId: 'git-javahometech',
           url: 'https://github.com/javahometech/my-app',
